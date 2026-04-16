@@ -1,0 +1,42 @@
+import '../../models/module.dart';
+
+final List<PyModule> curriculum = [
+  PyModule(id: 'm01', title: 'Python Foundations', icon: '🐍', xpReward: 100, lessons: [
+    PyLesson(id: 'm01l01', title: 'What is Python?', type: LessonType.concept),
+    PyLesson(id: 'm01l02', title: 'Variables & Data Types', type: LessonType.practice),
+    PyLesson(id: 'm01l03', title: 'String Operations', type: LessonType.practice),
+    PyLesson(id: 'm01l04', title: 'User Input & Print', type: LessonType.practice),
+    PyLesson(id: 'm01l05', title: 'Type Conversion', type: LessonType.practice),
+    PyLesson(id: 'm01l06', title: 'Module Challenge', type: LessonType.challenge),
+  ]),
+  PyModule(id: 'm02', title: 'Control Flow', icon: '🔀', xpReward: 150, lessons: [
+    PyLesson(id: 'm02l01', title: 'if / elif / else'),
+    PyLesson(id: 'm02l02', title: 'Comparison & Logic Operators'),
+    PyLesson(id: 'm02l03', title: 'Nested Conditions'),
+    PyLesson(id: 'm02l04', title: 'while Loops'),
+    PyLesson(id: 'm02l05', title: 'for Loops & range()'),
+    PyLesson(id: 'm02l06', title: 'break, continue, pass'),
+    PyLesson(id: 'm02l07', title: 'Module Challenge', type: LessonType.challenge),
+  ]),
+  PyModule(id: 'm03', title: 'Functions', icon: '⚡', xpReward: 200, lessons: [
+    PyLesson(id: 'm03l01', title: 'Defining & Calling Functions'),
+    PyLesson(id: 'm03l02', title: 'Parameters & Arguments'),
+    PyLesson(id: 'm03l03', title: 'Return Values'),
+    PyLesson(id: 'm03l04', title: 'Default & Keyword Args'),
+    PyLesson(id: 'm03l05', title: '*args and **kwargs'),
+    PyLesson(id: 'm03l06', title: 'Scope & Closures'),
+    PyLesson(id: 'm03l07', title: 'Lambda Functions'),
+    PyLesson(id: 'm03l08', title: 'Module Challenge', type: LessonType.challenge),
+  ]),
+  PyModule(id: 'm04', title: 'Data Structures', icon: '📦', xpReward: 250),
+  PyModule(id: 'm05', title: 'OOP', icon: '🏗️', xpReward: 300),
+  PyModule(id: 'm06', title: 'Error Handling', icon: '🛡️', xpReward: 150),
+  PyModule(id: 'm07', title: 'File I/O', icon: '📁', xpReward: 150),
+  PyModule(id: 'm08', title: 'Modules & Packages', icon: '📚', xpReward: 200),
+  PyModule(id: 'm09', title: 'Iterators & Generators', icon: '🔄', xpReward: 250),
+  PyModule(id: 'm10', title: 'Decorators', icon: '✨', xpReward: 300),
+  PyModule(id: 'm11', title: 'Concurrency', icon: '⚙️', xpReward: 350),
+  PyModule(id: 'm12', title: 'Advanced Topics', icon: '🧬', xpReward: 400),
+  PyModule(id: 'm13', title: 'Testing & Best Practices', icon: '✅', xpReward: 300),
+  PyModule(id: 'm14', title: 'Python Mastery Project', icon: '🏆', xpReward: 1000),
+];
